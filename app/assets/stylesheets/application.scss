@@ -18,7 +18,8 @@
 
 /*body*/
 body {
- background-color: #3498db;
+ background-color: #ecf0f1;
+ font-family: 'Lato', sans-serif;
 }
 
 /*navbar*/
@@ -34,7 +35,14 @@ body {
 .navbar-brand {
   letter-spacing: -1px;
   font-size: 2em;
-  font-weight: 300;
+  font-weight: bold;
   color: #2980b9 !important;
 }
 
+.jumbotron {
+  background-color: white;
+}
+
+.center {
+  text-align: center;
+}
