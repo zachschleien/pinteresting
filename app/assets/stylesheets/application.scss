@@ -36,7 +36,10 @@ body {
   letter-spacing: -1px;
   font-size: 2em;
   font-weight: bold;
-  color: #2980b9 !important;
+}
+
+.navbar-default .navbar-brand {
+  color: #cb2027;
 }
 
 .jumbotron {
