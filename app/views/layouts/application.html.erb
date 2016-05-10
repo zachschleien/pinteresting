@@ -11,6 +11,9 @@
   
   <%= render 'layouts/header' %> <!-- this is the _header partial -->
   <div class="container"> <!-- this centers the yield -->
+    <% flash.each do |name, msg| %>
+     <%= content_tag(:div, msg, class: "alert alert-info") %>
+    <% end %>
     <%= yield %>
   </div>
 
