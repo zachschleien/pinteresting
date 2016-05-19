@@ -11,6 +11,7 @@
  * file per style scope.
  *
  *= require_tree .
+ *= require 'masonry/transitions'
  *= require_self
  */
 @import "bootstrap-sprockets";
@@ -48,4 +49,17 @@ body {
 
 .center {
   text-align: center;
+}
+
+#pins {
+  margin: 0 auto;
+}
+
+.box {
+  margin: 5px;
+  width: 214px;
+}
+
+.box img {
+  width: 100%;
 }
